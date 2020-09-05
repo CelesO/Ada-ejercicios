@@ -1,6 +1,7 @@
 package ejercicios;
 
 import java.util.Scanner;
+//tenemos que hacer esta importacion de clase para que java pueda acceder a todos los atributos
 
 public class Ejercicios214Envios {
 
@@ -14,6 +15,9 @@ public class Ejercicios214Envios {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		// Con el System.in le decimos a Scanner que vamos a ingresar (in) en el sistema
+		// (System)
+
 		System.out.println("Bienvenido");
 		System.out.println("Ingrese el peso de su paquete en gramos ");
 		int peso = sc.nextInt();
@@ -41,6 +45,7 @@ public class Ejercicios214Envios {
 			case 5:
 				costoEnvio = peso * ZONA_5;
 				break;
+
 			default:
 				System.out.println("Zona incorrecta");
 
@@ -50,7 +55,7 @@ public class Ejercicios214Envios {
 		} else {
 			System.out.println("");
 
-			sc.close();
+			// sc.close();?
 		}
 
 	}
