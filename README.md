@@ -1,2 +1,3 @@
 # Ada-ejercicios
-Ejercios del curso Ada Java
+Ejercicios del curso Desarrollo Backend en Ada 
+Lenguaje de programacion utilizado: Java
